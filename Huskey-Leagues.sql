@@ -15,6 +15,7 @@ CREATE TABLE IF NOT EXISTS team_members (
 CREATE TABLE IF NOT EXISTS sports (
     sportID int,
     name varchar(50),
+    rules longtext,
     PRIMARY KEY (sportID)
 );
 
